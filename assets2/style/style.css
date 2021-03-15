@@ -1,0 +1,57 @@
+@font-face{
+    font-family: "redressed";
+    src: url(/assets/fonts/Redressed-Regular.ttf);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "redressed", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #243a6f;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+.navbar-brand
+{
+  position:absolute;
+  left:calc(50% - 30px);
+  top:8px;
+  font-size: 3.5rem;
+}
+
+.font1{
+    font-size: x-large;
+    
+}
+.lispace{
+    padding-right:3rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .join1{
+        width: 100%;
+    }
+  }
+
+.carousel1{
+    background-size: cover;
+}
