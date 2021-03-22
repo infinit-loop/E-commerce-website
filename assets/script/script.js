@@ -18,3 +18,5 @@ navClose.addEventListener("click", () => {
     navBar.classList.remove("show");
   }
 });
+
+
